@@ -333,6 +333,7 @@ class ElevenLabsAPI {
             case 500:
               throw InternalServerErrorException(error.response?.data['error']);
           }
+          throw ("ELEVEN_LABS_ERROR: ${error.message}");
         case DioExceptionType.cancel:
           throw RequestCanceledException(error.message);
         case DioExceptionType.unknown:
