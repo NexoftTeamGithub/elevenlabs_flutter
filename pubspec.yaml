@@ -13,8 +13,7 @@ dependencies:
   envied: ^0.3.0+3
   json_serializable: 6.6.1
   json_annotation: 4.8.0
-  flutter:
-    sdk: flutter
+
 
 dev_dependencies:
   flutter_test:
