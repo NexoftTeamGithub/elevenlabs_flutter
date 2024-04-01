@@ -1,6 +1,3 @@
-import 'package:flutter/material.dart';
-
-@immutable
 class ElevenLabsConfig {
   final String apiKey;
   final String baseUrl;
